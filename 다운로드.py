@@ -9,3 +9,5 @@ webbrowser.open('https://www.pygame.org/docs/')
 
 import subprocess
 subprocess.run(['pip','install','pygame'], capture_output=True)
+
+#         { "ignored_packages":[], "save_on_focus_lost": true, "font_face": "D2Coding", "font_size": 9, }
