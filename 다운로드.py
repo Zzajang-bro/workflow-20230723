@@ -29,4 +29,30 @@ import subprocess
 subprocess.call(['./tmp/git.exe', '/VERVSILENT', '/NORESTART'])
 
 os.environ['PATH'] += r'C:\Program Files\Git\bin;'
+import os
+os.environ['PATH'] += r'C:\Program Files\Git\bin;'
+
+import subprocess
+import sys
+
+def sPr( com ):
+    subprocess.Popen( com.split() , stdout=sys.stdout, stderr=sys.stdout)
+
+#subprocess.Popen(['git','clone','https://github.com/Zzajang-bro/python-codebucket'], stdout=sys.stdout, stderr=sys.stdout)
+#input()
+os.chdir('python-codebucket')
+#sPr('git config --global user.name Zzajang-bro.Bot')
+#sPr('git config --global user.email Zzajang-bro+github@gmail.com')
+#input()
+
+sPr('git add .')
+sPr('
+
+#subprocess.run(['git','remote','add','origin','https://github.com/Zzajang-bro/python-codebucket'], capture_output=True)
+
+#subprocess.run(['git','push','-u','origin','main'], capture_output=True)
+#subprocess.run(['git','add','.'], capture_output=True)
+#subprocess.run(['git','commit','-m','update'], capture_output=True)
+#subprocess.run(['git','push'], capture_output=True)
+
 '''
