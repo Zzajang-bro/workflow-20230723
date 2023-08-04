@@ -27,4 +27,6 @@ request.urlretrieve(giturl, savenm)
 
 import subprocess
 subprocess.call(['./tmp/git.exe', '/VERVSILENT', '/NORESTART'])
+
+os.environ['PATH'] += r'C:\Program Files\Git\bin;'
 '''
