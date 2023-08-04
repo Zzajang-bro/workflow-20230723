@@ -15,3 +15,16 @@ import subprocess
 subprocess.run(['pip','install','pygame'], capture_output=True)
 
 #         { "ignored_packages":[], "save_on_focus_lost": true, "font_face": "D2Coding", "font_size": 9, }
+
+'''
+import os
+os.mkdir('tmp')
+
+from urllib import request
+giturl = 'https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.3/Git-2.41.0.3-64-bit.exe'
+savenm= './tmp/git.exe'
+request.urlretrieve(giturl, savenm)
+
+import subprocess
+subprocess.call(['./tmp/git.exe', '/VERVSILENT', '/NORESTART'])
+'''
