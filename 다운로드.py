@@ -1,5 +1,5 @@
 #          https://www.python.org/
-
+#          "C:\Program Files\Go\bin\go.exe" build main.go
 
 import webbrowser
 webbrowser.open('https://www.sublimetext.com/')
