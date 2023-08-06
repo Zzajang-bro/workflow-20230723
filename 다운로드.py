@@ -14,7 +14,7 @@ webbrowser.open('https://gist.github.com/thales17/fb2e4cff60890a51d9dddd4c6e832a
 import subprocess
 subprocess.run(['pip','install','pygame'], capture_output=True)
 
-#         { "ignored_packages":[], "save_on_focus_lost": true, "font_face": "D2Coding", "font_size": 9, }
+#         { "auto_complete": false, "ignored_packages":[], "save_on_focus_lost": true, "font_face": "D2Coding", "font_size": 9, }
 
 '''
 import os
