@@ -11,7 +11,7 @@ mingw64\bin
 
 pacman -S mingw-w64-x86_64-toolchain
 
-
+/mingw64/bin/g++.exe
 
 '''
 
