@@ -1,3 +1,19 @@
+'''
+https://www.msys2.org/
+
+pacman -Syu
+
+pacman -S mingw-w64-x86_64-gcc
+
+
+
+'''
+
+
+
+
+
+
 #          https://www.python.org/
 #          "C:\Program Files\Go\bin\go.exe" build main.go
 
