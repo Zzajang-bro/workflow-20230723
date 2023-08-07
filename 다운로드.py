@@ -5,6 +5,12 @@ pacman -Syu
 
 pacman -S mingw-w64-x86_64-gcc
 
+mingw64\bin
+[msys2]\mingw32\include
+[msys2]\mingw32\lib
+
+pacman -S mingw-w64-x86_64-toolchain
+
 
 
 '''
